@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	color: white;
+}
+
+body{
+
+	background: url("bg.jpg");
+	background-repeat: no-repeat;
+}
+
+div {
+  
+  width: 500px;
+  background: black;
+  opacity: 70%;
+  border: 15px solid grey; 
+  padding: 200px;
+  margin: 200px;
+}

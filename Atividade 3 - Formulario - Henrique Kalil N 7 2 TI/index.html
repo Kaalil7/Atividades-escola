@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Atividade 3 - Formulário</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+<div>
+	<form method="get" action="formulario.php">
+		Nome: <input type="text" name="nome"><br/>
+		Ano de nascimento: <input type="number" name="ano"><br/>
+		<!-- Fieldset é uma borda e legend deixará em evidência-->
+		<fieldset><legend>Sexo</legend>
+		<input type="radio" name="sexo" id="masc" value="homem" checked/><!--Checked deixa marcado opcional-->
+		   <!--Radio botão de bolinha-->
+		<label for = "masc"> Masculino </label><br/>
+		<input type="radio" name="sexo" id="fem" value="mulher"/>
+		<label for = "fem"> Feminino </label><br/>
+		</fieldset><br/>
+		<input type="submit" name="enviar">
+	</form>
+</div>
+</body>
+</html>
