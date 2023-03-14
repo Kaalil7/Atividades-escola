@@ -1,0 +1,45 @@
+*{
+    font-family: arial;
+
+}
+
+body {
+
+    background: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+.box {
+
+    width: 300px;
+    border: 5px solid black;
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #c1fff4;
+    color: black;
+    word-wrap: break-word;
+
+
+}
+
+.form {
+
+    color: black;
+
+}
+
+.envio {
+
+    color: black;
+
+}
+
+.voltar {
+
+    color: black;
+
+}
